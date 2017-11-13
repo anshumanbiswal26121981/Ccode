@@ -1,0 +1,5 @@
+gcc -c vector.c vector.h
+
+gcc -o server_udp server_udp.c –lrt
+ 
+gcc -std=gnu99 -o client_udp client_udp.c vector.o -lrt
