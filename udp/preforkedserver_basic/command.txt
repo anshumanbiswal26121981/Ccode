@@ -1,0 +1,4 @@
+gcc -std=gnu99 -o udpclient udpclient.c -lrt
+
+gcc -std=gnu99 -o udppser udppreforkedserver.c -pthread -lrt
+
